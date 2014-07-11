@@ -118,10 +118,6 @@ will change into file `tmp/dest/home.js`:
 In this example, custom prefix and suffix will add to the js file:
 
 ```js
-(function(){var a="<html>...</html>";})();
-```
-
-```js
 grunt.initConfig({
     html2str: {
         custom_options: {    
@@ -134,6 +130,20 @@ grunt.initConfig({
         },
     },
 });
+```
+
+file `tmp/src/home.html`:
+
+```html
+<html>
+	...
+</html>
+```
+
+will change into file `tmp/dest/home.js`:
+
+```js
+(function(){var a="<html>...</html>";})();
 ```
 
 ## Release History
