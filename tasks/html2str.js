@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 
         var options = this.options(),
             src = grunt.file.expand(options.src),
-            dest = options.dest || '',
+            dest = options.dest || './',
             prefix = options.prefix || '',
             suffix = options.suffix || '';
 
