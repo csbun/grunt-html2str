@@ -85,11 +85,7 @@ suffix = ';\n});';
 ### Usage Examples
 
 #### Default Options
-In this example, html file will change into a js file with the same name containing:
-
-```js
-"<html>...</html>"
-```
+In this example, html file will change into a js file with the same name.
 
 ```js
 grunt.initConfig({
@@ -102,6 +98,20 @@ grunt.initConfig({
         },
     },
 });
+```
+
+file `tmp/src/home.html`:
+
+```html
+<html>
+	...
+</html>
+```
+
+will change into file `tmp/dest/home.js`:
+
+```js
+"<html>...</html>"
 ```
 
 #### Custom Options
