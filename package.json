@@ -1,0 +1,45 @@
+{
+  "name": "grunt-html2str",
+  "description": "Minify HTML 2 JavaScript String",
+  "version": "0.0.1",
+  "homepage": "https://github.com/csbun/grunt-html2str",
+  "author": {
+    "name": "Hans Chan",
+    "email": "icsbun@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:csbun/grunt-html2str.git"
+  },
+  "bugs": {
+    "url": "https://github.com/csbun/grunt-html2str/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/csbun/grunt-html2str/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "chalk": ">=0.5.1",
+    "html-minifier": ">=0.6.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

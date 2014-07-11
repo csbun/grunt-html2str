@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail</title>
+</head>
+<body>
+    <p>Page Detail</p>
+    <ul id="ul"></ul>
+</body>
+<script type="text/javascript">
+function append (text) {
+    var el = document.createElement('li');
+    el.innerHTML = text;
+    document.getElementById('ul').appendChild(el);
+}
+append('text1');
+append('text2');
+</script>
+</html>
